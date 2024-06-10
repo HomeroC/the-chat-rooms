@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.formContainer{
+  background-color: darkslategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.formWrapper{
+  background-color: white;
+  padding: 20px 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+
+  .logo{
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    input{
+      padding: 10px;
+      border: none;
+      width:250px;
+      border-bottom: 1px solid #2f4f4f;
+    }
+  }
+}
